@@ -38,3 +38,13 @@ spring:
 
           brokers: localhost:9092
 ```
+## 5. How do you define an input and output binding?
+```java
+public interface MyProcessor {
+    @Input("input")
+    SubscribableChannel input();
+
+    @Output("output")
+    MessageChannel output();
+}
+```
