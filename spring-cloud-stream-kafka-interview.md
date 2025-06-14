@@ -66,3 +66,12 @@ public interface MyProcessor {
 ```yml
 spring.cloud.stream.bindings.input.group=my-group
 ```
+
+## 8. How does error handling work?
+- Spring Cloud Stream allows:
+
+- Automatic retries
+
+- Error channels (binding.errors)
+
+- Dead Letter Queues (DLQ)
