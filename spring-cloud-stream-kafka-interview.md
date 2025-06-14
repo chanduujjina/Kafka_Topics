@@ -75,3 +75,9 @@ spring.cloud.stream.bindings.input.group=my-group
 - Error channels (binding.errors)
 
 - Dead Letter Queues (DLQ)
+
+  ```yml
+  spring.cloud.stream.bindings.input.consumer:
+  maxAttempts: 3
+  defaultRetryable: true
+```
