@@ -24,3 +24,17 @@ A Binder is a component that connects the application to messaging middleware (K
 private StreamBridge streamBridge;
 
 streamBridge.send("output-topic", myMessage);
+```
+## 4. How do you configure Kafka in Spring Cloud Stream?
+```yaml
+spring:
+  cloud:
+    stream:
+      bindings:
+        output:
+          destination: my-topic
+      kafka:
+        binder:
+```
+          brokers: localhost:9092
+
