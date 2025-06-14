@@ -81,3 +81,6 @@ spring.cloud.stream.bindings.input.group=my-group
   maxAttempts: 3
   defaultRetryable: true
 ```
+
+##  9. What is a Dead Letter Queue (DLQ)?
+- A DLQ is a Kafka topic where failed messages are sent after exhausting retry attempts. It allows post-mortem analysis and reprocessing.
