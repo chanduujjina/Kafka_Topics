@@ -61,7 +61,7 @@ public interface MyProcessor {
 -@Bean (for function-style)
 
 
-7. What is a consumer group?
+## 7. What is a consumer group?
 -A Kafka consumer group is a group of consumers that cooperate to read data from a topic, ensuring each message is only processed once. Configurable via:
 ```yml
 spring.cloud.stream.bindings.input.group=my-group
