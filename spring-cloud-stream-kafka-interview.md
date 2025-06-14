@@ -48,3 +48,14 @@ public interface MyProcessor {
     MessageChannel output();
 }
 ```
+
+## 6. What are the main annotations used?
+-@EnableBinding
+
+-@StreamListener
+
+-@SendTo
+
+-@Input, @Output
+
+-@Bean (for function-style)
