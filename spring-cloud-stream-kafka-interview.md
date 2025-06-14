@@ -50,15 +50,15 @@ public interface MyProcessor {
 ```
 
 ## 6. What are the main annotations used?
--@EnableBinding
+- @EnableBinding
 
--@StreamListener
+- @StreamListener
 
--@SendTo
+- @SendTo
 
--@Input, @Output
+- @Input, @Output
 
--@Bean (for function-style)
+- @Bean (for function-style)
 
 
 ## 7. What is a consumer group?
