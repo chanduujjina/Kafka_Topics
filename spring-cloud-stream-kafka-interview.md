@@ -35,6 +35,6 @@ spring:
           destination: my-topic
       kafka:
         binder:
-```
-          brokers: localhost:9092
 
+          brokers: localhost:9092
+```
