@@ -84,3 +84,11 @@ spring.cloud.stream.bindings.input.group=my-group
 
 ##  9. What is a Dead Letter Queue (DLQ)?
 - A DLQ is a Kafka topic where failed messages are sent after exhausting retry attempts. It allows post-mortem analysis and reprocessing.
+
+ ## 10. How do you test Spring Cloud Stream apps?
+
+ - Use @SpringBootTest
+
+- Use embedded Kafka (e.g., EmbeddedKafkaRule)
+
+- Use MessageCollector or StreamBridge for assertions
